@@ -1,0 +1,32 @@
+{
+  "name": "node-proxy-server",
+  "version": "1.0.0",
+  "description": "My proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\"",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH, $ZEIT_KEY",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryvokhyzha/Node-proxy-server.git"
+  },
+  "keywords": [
+    "proxy",
+    "server"
+  ],
+  "author": "Serhii Khorolich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brainlaw/js_labs/issues"
+  },
+  "homepage": "https://github.com/Brainlaw/js_labs#readme",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "now": "^14.0.2"
+  }
+}
